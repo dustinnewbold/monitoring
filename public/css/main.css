@@ -1,0 +1,44 @@
+@import url(reset.css);
+@import url(base.css);
+@import url(layout.css);
+@import url(header.css);
+
+.status {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	border-radius: 30px;
+}
+
+.status-green {
+	background: #0b0;
+}
+
+.status-red {
+	background: #f00;
+}
+
+.status-yellow {
+	background: #f90;
+}
+
+.status-progress {
+	background: #00f;
+}
+
+.sites li {
+	margin-bottom: 10px;
+	padding: 10px 0;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+.sites a {
+	color: #333;
+}
+
+.last-scanned {
+	display: block;
+	margin: 5px 0;
+	font-size: 12px;
+}
